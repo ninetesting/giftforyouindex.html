@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+body {
+    font-family: 'Lobster Two', cursive;
+}
+.main {
+    background-color: rgba(138, 31, 238, 0.856);
+    height: 870px;
+}
+.container p{
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(244, 245, 248);
+    margin-bottom: 5px;
+    transition: 0.5s;
+
+}
+.first {
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 400px;
+    background-image: url("./img/FB_IMG_1605977500325.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container p:hover {
+    color: rgb(47, 28, 131);
+}
+.second {
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 400px;
+    background-image: url("./img/S91126-144819.jpg");
+    background-position: 0px -90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.second p {
+    text-align: center;
+    text-shadow: rgb(157, 178, 179) 1px 2px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(61, 14, 85);
+    transition: 0.5s;
+}
+.second p:hover {
+    color: rgb(21, 48, 136);
+}
